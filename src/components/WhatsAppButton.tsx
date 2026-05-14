@@ -26,7 +26,7 @@ export default function WhatsAppButton({
   text = "Jetzt einfach ‚ITALIEN‘ auf WhatsApp schreiben",
   pulse = true 
 }: WhatsAppButtonProps) {
-  const WHATSAPP_LINK = "https://wa.me/491796790530?text=ITALIEN";
+  const WHATSAPP_LINK = "https://wa.me/00491796790530?text=ITALIEN";
 
   return (
     <motion.a

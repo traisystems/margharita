@@ -1,7 +1,7 @@
 import { Heart } from 'lucide-react';
 
 export default function Footer() {
-  const WHATSAPP_LINK = "https://wa.me/491796790530?text=ITALIEN";
+  const WHATSAPP_LINK = "https://wa.me/00491796790530?text=ITALIEN";
 
   return (
     <footer className="bg-slate-900 text-slate-400 py-12 px-4">
@@ -22,7 +22,7 @@ export default function Footer() {
           <h4 className="text-white font-bold mb-4">Kontakt</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              WhatsApp: <a href={WHATSAPP_LINK} className="text-brand-green hover:text-white transition-colors">+49 179 6790530</a>
+              WhatsApp: <a href={WHATSAPP_LINK} className="text-brand-green hover:text-white transition-colors">00491796790530</a>
             </li>
             <li>
               E-Mail: <a href="mailto:lunare456bello@gmx.de" className="hover:text-white transition-colors">lunare456bello@gmx.de</a>
