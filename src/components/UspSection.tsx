@@ -4,7 +4,7 @@ import { CheckCircle2 } from 'lucide-react';
 export default function UspSection() {
   const usps = [
     "100 % WhatsApp-basiert – lernen jederzeit und überall",
-    "Persönlich von Margharita eingesprochene Audio-Lektionen",
+    "Persönlich von Margherita eingesprochene Audio-Lektionen",
     "Teilnehmer sprechen die Übungen als Sprachnachricht nach",
     "Individuell angepasste Lernwege + persönlicher Sprachtest zu Beginn",
     "Sanfte Korrekturen und herzliche persönliche Rückmeldungen",

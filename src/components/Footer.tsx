@@ -10,10 +10,10 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 text-white font-bold text-xl mb-4">
             <Heart className="w-5 h-5 text-brand-red fill-brand-red" />
-            <span>Margharita Carusotto</span>
+            <span>Margherita Carusotto</span>
           </div>
           <p className="text-sm">
-            Microlearning mit Margharita<br />
+            Microlearning mit Margherita<br />
             Italienisch lernen mit Herz und Freude.
           </p>
         </div>
@@ -34,7 +34,7 @@ export default function Footer() {
           <h4 className="text-white font-bold mb-4">Rechtliches</h4>
           <ul className="space-y-2 text-sm">
             <li><span className="text-slate-500">Impressum:</span></li>
-            <li>Margharita Carusotto (Einzelfirma)</li>
+            <li>Margherita Carusotto (Einzelfirma)</li>
             <li>Friedrichsfelder Str. 47f</li>
             <li>68535 Edingen-Neckarhausen</li>
           </ul>
@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       
       <div className="text-center text-sm text-slate-500">
-        &copy; {new Date().getFullYear()} Margharita Carusotto. Alle Rechte vorbehalten.
+        &copy; {new Date().getFullYear()} Margherita Carusotto. Alle Rechte vorbehalten.
       </div>
     </footer>
   );

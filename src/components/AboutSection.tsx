@@ -16,7 +16,7 @@ export default function AboutSection() {
             {/* image.png is Margherita's portrait */}
             <img 
               src="/image.png" 
-              alt="Margharita Carusotto" 
+              alt="Margherita Carusotto" 
               className="object-cover w-full h-full"
             />
           </div>
