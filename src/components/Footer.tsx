@@ -1,7 +1,7 @@
 import { Heart } from 'lucide-react';
 
 export default function Footer() {
-  const WHATSAPP_LINK = "https://wa.me/00491796790530?text=ITALIEN";
+  const WHATSAPP_LINK = "https://wa.me/491796790530?text=ITALIEN";
 
   return (
     <footer className="bg-slate-900 text-slate-400 py-12 px-4">
