@@ -8,7 +8,7 @@ export default function HeroSection() {
   const [isLoaded, setIsLoaded] = useState(false);
   const totalFrames = 125;
   // delay-0.041s = ~24.39 frames per second
-  const frameDuration = 41; 
+  const frameDuration = 41;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -23,7 +23,7 @@ export default function HeroSection() {
     const calculateDrawParams = (width: number, height: number) => {
       const canvasRatio = canvas.width / canvas.height;
       const imgRatio = width / height;
-      
+
       let drawWidth = canvas.width;
       let drawHeight = canvas.height;
       let offsetX = 0;
@@ -42,9 +42,9 @@ export default function HeroSection() {
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      drawParams = calculateDrawParams(imgW, imgH); 
+      drawParams = calculateDrawParams(imgW, imgH);
     };
-    
+
     window.addEventListener('resize', handleResize);
     handleResize();
 
@@ -74,7 +74,7 @@ export default function HeroSection() {
 
     const render = (time: number) => {
       if (!startTime) startTime = time;
-      
+
       const elapsed = time - startTime;
       const targetFrame = Math.floor(elapsed / frameDuration) % totalFrames;
 
@@ -85,7 +85,7 @@ export default function HeroSection() {
           lastDrawnFrame = targetFrame;
         }
       }
-      
+
       animationFrameId = requestAnimationFrame(render);
     };
 
@@ -100,11 +100,11 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-brand-beige px-4">
       {/* Background Animation Canvas */}
-      <canvas 
-        ref={canvasRef} 
+      <canvas
+        ref={canvasRef}
         className={`absolute inset-0 w-full h-full z-0 transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
       />
-      
+
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/60 z-0 pointer-events-none" />
 
@@ -118,14 +118,14 @@ export default function HeroSection() {
           <div className="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center shadow-soft relative z-10 border border-white/20">
             <Heart className="w-12 h-12 text-brand-red fill-brand-red" />
           </div>
-          <motion.div 
+          <motion.div
             className="absolute inset-0 bg-brand-red/40 rounded-full z-0 blur-md"
             animate={{ scale: [1, 1.4, 1] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           />
         </motion.div>
 
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -134,7 +134,7 @@ export default function HeroSection() {
           Sprechen statt Grammatik pauken.
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}

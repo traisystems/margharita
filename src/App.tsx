@@ -7,6 +7,7 @@ import TestimonialSection from './components/TestimonialSection';
 import FaqSection from './components/FaqSection';
 import FinalCtaSection from './components/FinalCtaSection';
 import Footer from './components/Footer';
+import LessonPreview from './components/LessonPreview';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FaqSection />
       <FinalCtaSection />
       <Footer />
+      <LessonPreview />
     </div>
   );
 }
