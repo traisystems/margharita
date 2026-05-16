@@ -33,12 +33,12 @@ export default function AboutSection() {
         >
           <h2 className="text-brand-red text-sm font-bold uppercase tracking-widest mb-2">Mein Warum ✨</h2>
           <h3 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6 font-serif">
-            Ich begleite Menschen dabei, Italienisch wirklich zu sprechen — ohne Druck und ohne Grammatikpauken.
+            Ich begleite Menschen dabei, Italienisch wirklich zu sprechen, ohne Druck und ohne Grammatikpauken.
           </h3>
           
           <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
             <p>
-              Mit meinem WhatsApp-Microlearning lernen sie die Sprache durch kleine alltagstaugliche Impulse, Sprachnachrichten und echte Dialoge — flexibel, herzlich und mit italienischem Lebensgefühl.
+              Mit meinem WhatsApp-Microlearning lernen sie die Sprache durch kleine alltagstaugliche Impulse, Sprachnachrichten und echte Dialoge. Ganz flexibel, herzlich und mit italienischem Lebensgefühl.
             </p>
             <p>
               Ich unterrichte Italienisch nicht einfach nur, damit Menschen Vokabeln lernen.

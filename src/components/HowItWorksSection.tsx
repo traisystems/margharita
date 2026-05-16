@@ -11,7 +11,7 @@ export default function HowItWorksSection() {
     {
       icon: <Mic className="w-8 h-8" />,
       title: "Nachsprechen & Üben",
-      description: "Du sprichst die Übungen als Sprachnachricht nach – in deinem eigenen Tempo."
+      description: "Du sprichst die Übungen als Sprachnachricht nach, ganz in deinem eigenen Tempo."
     },
     {
       icon: <MessageCircle className="w-8 h-8" />,

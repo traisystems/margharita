@@ -19,11 +19,11 @@ export default function FaqSection() {
     },
     {
       question: "Ist das für Anfänger geeignet?",
-      answer: "Absolut! Mein Microlearning ist für alle Level geeignet – vom kompletten Anfänger (A0) bis hin zu Fortgeschrittenen."
+      answer: "Absolut! Mein Microlearning ist für alle Level geeignet, vom kompletten Anfänger (A0) bis hin zu Fortgeschrittenen."
     },
     {
       question: "Muss ich Grammatik können?",
-      answer: "Nein, wir lernen über Alltagssituationen, natürliche Wiederholung und Sprachaktivierung – ohne stures Grammatikpauken."
+      answer: "Nein, wir lernen über Alltagssituationen, natürliche Wiederholung und Sprachaktivierung, ganz ohne stures Grammatikpauken."
     }
   ];
 

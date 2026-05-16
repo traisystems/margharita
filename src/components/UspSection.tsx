@@ -3,15 +3,15 @@ import { CheckCircle2 } from 'lucide-react';
 
 export default function UspSection() {
   const usps = [
-    "100 % WhatsApp-basiert – lernen jederzeit und überall",
+    "100 % WhatsApp-basiert, lerne jederzeit und überall",
     "Persönlich von Margherita eingesprochene Audio-Lektionen",
     "Teilnehmer sprechen die Übungen als Sprachnachricht nach",
     "Individuell angepasste Lernwege + persönlicher Sprachtest zu Beginn",
     "Sanfte Korrekturen und herzliche persönliche Rückmeldungen",
-    "Microlearning – kleine Portionen statt Überforderung",
+    "Microlearning, kleine Portionen statt Überforderung",
     "Fokus auf echtes Sprechen, Verstehen und Alltagssprache",
     "Von A0 (kompletter Anfänger) bis C1",
-    "Keine starren Kurszeiten – flexibel im eigenen Tempo",
+    "Keine starren Kurszeiten, flexibel im eigenen Tempo",
     "Italienisches Lebensgefühl statt trockenem Schulbuch-Italienisch",
     "Herzliche persönliche Begleitung"
   ];

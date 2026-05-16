@@ -20,7 +20,7 @@ export default function StagesSection() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 max-w-2xl mx-auto"
           >
-            Von A0 bis C2 – finde deinen persönlichen Weg zum fließenden Italienisch.
+            Von A0 bis C2, finde deinen persönlichen Weg zum fließenden Italienisch.
           </motion.p>
         </div>
 
