@@ -2,6 +2,14 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Headphones, X, PlayCircle } from 'lucide-react';
 
+const ItalianFlag = () => (
+  <svg width="24" height="18" viewBox="0 0 3 2" className="inline-block mx-1 rounded-[2px] shadow-sm align-middle">
+    <rect width="1" height="2" x="0" fill="#009246"/>
+    <rect width="1" height="2" x="1" fill="#FFFFFF"/>
+    <rect width="1" height="2" x="2" fill="#CE2B37"/>
+  </svg>
+);
+
 export default function LessonPreview() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -130,11 +138,11 @@ export default function LessonPreview() {
 
                     {/* Line 5 */}
                     <div className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm transition-all hover:shadow-md hover:border-brand-red/30 group">
-                      <p className="text-lg font-bold text-gray-900 group-hover:text-brand-red transition-colors">
-                        Che bello ascoltare l'italiano 🇮🇹
+                      <p className="text-lg font-bold text-gray-900 group-hover:text-brand-red transition-colors flex items-center flex-wrap gap-1">
+                        Che bello ascoltare l'italiano <ItalianFlag />
                       </p>
-                      <p className="text-sm text-gray-500 mt-1">
-                        Wie schön es ist, Italienisch zu hören 🇮🇹
+                      <p className="text-sm text-gray-500 mt-1 flex items-center flex-wrap gap-1">
+                        Wie schön es ist, Italienisch zu hören <ItalianFlag />
                       </p>
                     </div>
                   </div>
